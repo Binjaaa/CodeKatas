@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.Tests", "CodeKata.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.ConsoleRunner", "CodeKata.ConsoleRunner\CodeKata.ConsoleRunner.csproj", "{939AA58B-1DA2-4E0D-9858-D088704584CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeKata.Refactored", "CodeKata.Refactored\CodeKata.Refactored.csproj", "{B0FEDC93-BD07-4BDE-BD13-5EE6035FFAFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{939AA58B-1DA2-4E0D-9858-D088704584CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939AA58B-1DA2-4E0D-9858-D088704584CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939AA58B-1DA2-4E0D-9858-D088704584CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FEDC93-BD07-4BDE-BD13-5EE6035FFAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FEDC93-BD07-4BDE-BD13-5EE6035FFAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FEDC93-BD07-4BDE-BD13-5EE6035FFAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FEDC93-BD07-4BDE-BD13-5EE6035FFAFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
