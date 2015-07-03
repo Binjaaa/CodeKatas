@@ -42,6 +42,11 @@
     <Folder Include="GlidedRose\" />
     <Folder Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BloomFilter\FowlerNollVoHashStrategy.cs" />
+    <Compile Include="BloomFilter\JenkinsHashStrategy.cs" />
+    <Compile Include="BloomFilter\NonCriptographyHashStrategy.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
